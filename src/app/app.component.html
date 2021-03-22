@@ -1,0 +1,17 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+      
+  <label for="name">
+    Nom de l'appareil
+  </label>
+
+<input type="text" id="name" class="form-control">
+  
+<button class="btn btn-primary" type="submit">Enregistrer</button>
+</form>
+
+
+
+<label for="name">
+Nom de l'appareil
+</label>
+<input type="text" id="name" class="form-control" name="name" ngModel>
